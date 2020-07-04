@@ -7,3 +7,10 @@ que como resultado de un arreglo con todos los valores aumentados.
 
 =end 
 
+def augment(array,factor)
+    new_array = [ ]
+    array.each do |price|
+        new_array.push (price * factor)
+    end
+    new_array
+end
